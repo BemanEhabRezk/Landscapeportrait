@@ -3,7 +3,7 @@ h1{
     color: red;
     background-color: green;
 }
-@media (orientation: portrait) {
+@media (max-width: 530px) {
     #h1{
         visibility: visible;
     }
@@ -11,7 +11,7 @@ h1{
         visibility: hidden;
     }
 }
-@media (orientation: landscape) {
+@media (min-width: 530px) {
     #h1{
         visibility: hidden;
     }
