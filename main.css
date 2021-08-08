@@ -1,0 +1,21 @@
+h1{
+    position: absolute;
+    color: red;
+    background-color: green;
+}
+@media (orientation: landscape) {
+    #h1{
+        visibility: visible;
+    }
+    #h2{
+        visibility: hidden;
+    }
+}
+@media (orientation: portrait) {
+    #h1{
+        visibility: hidden;
+    }
+    #h2{
+        visibility: visible;
+    }
+}
